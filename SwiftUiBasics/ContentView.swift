@@ -24,7 +24,10 @@ struct ContentView: View {
                     .foregroundStyle(.yellow)
                 Text("Sunday")
             }
-            
+            Image("icon")
+                .resizable()
+                .scaledToFit()
+                .clipShape(.buttonBorder)
         }
         .padding()
         
