@@ -19,9 +19,9 @@ struct ContentView: View {
                 .foregroundStyle(.gray)
             
             HStack{
-                Image(systemName: "sun.max.fill")
+                Image(systemName: "cloud.rain")
                     .imageScale(.large)
-                    .foregroundStyle(.yellow)
+                    .foregroundStyle(.blue)
                 Text("Sunday")
             }
             
@@ -33,9 +33,9 @@ struct ContentView: View {
             }
             
             HStack{
-                Image(systemName: "sun.max.fill")
+                Image(systemName: "cloud.fill")
                     .imageScale(.large)
-                    .foregroundStyle(.yellow)
+                    .foregroundStyle(.gray)
                 Text("Tuesday")
             }
             
@@ -47,9 +47,9 @@ struct ContentView: View {
             }
             
             HStack{
-                Image(systemName: "sun.max.fill")
+                Image(systemName: "cloud.rain.fill")
                     .imageScale(.large)
-                    .foregroundStyle(.yellow)
+                    .foregroundStyle(.blue)
                 Text("Thursday")
             }
             
@@ -63,7 +63,7 @@ struct ContentView: View {
             HStack{
                 Image(systemName: "sun.max.fill")
                     .imageScale(.large)
-                    .foregroundStyle(.yellow)
+                    .foregroundStyle(.blue)
                 Text("Saturday")
             }
             
