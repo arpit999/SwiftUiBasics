@@ -24,10 +24,54 @@ struct ContentView: View {
                     .foregroundStyle(.yellow)
                 Text("Sunday")
             }
+            
+            HStack{
+                Image(systemName: "sun.max.fill")
+                    .imageScale(.large)
+                    .foregroundStyle(.yellow)
+                Text("Monday")
+            }
+            
+            HStack{
+                Image(systemName: "sun.max.fill")
+                    .imageScale(.large)
+                    .foregroundStyle(.yellow)
+                Text("Tuesday")
+            }
+            
+            HStack{
+                Image(systemName: "sun.max.fill")
+                    .imageScale(.large)
+                    .foregroundStyle(.yellow)
+                Text("Wednesday")
+            }
+            
+            HStack{
+                Image(systemName: "sun.max.fill")
+                    .imageScale(.large)
+                    .foregroundStyle(.yellow)
+                Text("Thursday")
+            }
+            
+            HStack{
+                Image(systemName: "sun.max.fill")
+                    .imageScale(.large)
+                    .foregroundStyle(.yellow)
+                Text("Friday")
+            }
+            
+            HStack{
+                Image(systemName: "sun.max.fill")
+                    .imageScale(.large)
+                    .foregroundStyle(.yellow)
+                Text("Saturday")
+            }
+            
             Image("icon")
                 .resizable()
                 .scaledToFit()
                 .clipShape(.buttonBorder)
+            
         }
         .padding()
         
