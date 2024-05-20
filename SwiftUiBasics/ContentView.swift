@@ -10,30 +10,24 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         
-        // Align content on horizontal axis
-        HStack{
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, Everyone!")
-        }
-        
         // Align content on vertical axis
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, Everyone!")
+            
+            Text("Weather")
+                .font(.largeTitle)
+                .fontWeight(.thin)
+                .foregroundStyle(.gray)
+            
+            HStack{
+                Image(systemName: "sun.max.fill")
+                    .imageScale(.large)
+                    .foregroundStyle(.yellow)
+                Text("Sunday")
+            }
+            
         }
         .padding()
         
-        // Align content on Z axis
-        ZStack{
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, Everyone!")
-        }
     }
 }
 
